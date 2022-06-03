@@ -1,0 +1,54 @@
+﻿@charset "utf-8";
+@import url("reset.css");
+
+/* CSS Document */
+
+body {
+    background-image: url(images/bg.jpg);
+    background-color: #000;
+    background-size: cover;
+}
+
+#BOX {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(images/flycan.png);
+    position: relative;
+}
+
+#BOX ul {
+    position: absolute;
+    left: 105px;
+    top: 214px;
+}
+
+#BOX li {
+    float: left;
+    margin-right: 10px;
+}
+
+#BOX li a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+    background-image: url(images/btn.jpg);
+    letter-spacing: 5px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+}
+
+#BOX li a:hover {
+    color: #E00;
+}
+
+#BOX img {
+    position: absolute;
+    left: 99px;
+    top: 268px;
+}
